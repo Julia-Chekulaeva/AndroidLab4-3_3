@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="50dp"
-    android:id="@+id/activity3">
+    android:id="@+id/fragment3">
 
     <Button
-        android:id="@+id/bnToActivity1"
+        android:id="@+id/bnToFirst"
         android:layout_width="240dp"
         android:layout_height="70dp"
         android:textAlignment="center"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bnToActivity2"
+        android:id="@+id/bnToSecond"
         android:layout_width="240dp"
         android:layout_height="70dp"
         android:layout_marginTop="50dp"
@@ -25,10 +25,10 @@
         android:text="@string/to_second"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bnToActivity1" />
+        app:layout_constraintTop_toBottomOf="@+id/bnToFirst" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnToAboutActivity"
+        android:id="@+id/nav_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

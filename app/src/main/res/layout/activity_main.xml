@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     android:paddingTop="50dp"
     tools:context=".MainActivity"
-    android:id="@+id/activity1"
+    android:id="@+id/fragment1"
     android:clipChildren="false">
 
     <Button
-        android:id="@+id/bnToActivity2"
+        android:id="@+id/bnToSecond"
         android:layout_width="240dp"
         android:layout_height="70dp"
         android:textAlignment="center"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnToAboutActivity"
+        android:id="@+id/nav_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
