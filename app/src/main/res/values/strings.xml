@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Android Lab 3–5</string>
-
-    <string name="title_about">About</string>
-    <string name="text_about">Hello, World!</string>
-
-    <string name="title_to_second">To Second</string>
-    <string name="title_to_third">To Third</string>
-    <string name="title_to_first">To First</string>
+    <string name="app_name">Android Lab 3–3</string>
+    <string name="to_second">to second</string>
+    <string name="to_first">to first</string>
+    <string name="to_third">to third</string>
+    <string name="some_text_information">Hello, World!</string>
+    <string name="title_activity_2">Activity 2</string>
+    <string name="title_activity_3">Activity 3</string>
+    <string name="title_activity_about">Activity About</string>
+    <string name="info">info</string>
 </resources>
